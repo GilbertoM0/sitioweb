@@ -60,6 +60,19 @@
                     </div>
                 </div>
                 <img class="img-fluid" src="assets/img/1.botella-transformed-g.png" alt="..." />
+                
+                <script>
+                  //Para que cuando pase el mouse por arriba haga zoom-->  
+                  var img = document.querySelector('img');
+                  img.addEventListener('mouseover', function() {
+                    img.style.transform = 'scale(1.2)';
+                    });
+
+                    //Muy bie en, pero ahora quiero que cuando salga el mouse de la imagen vuelva a la normalidad
+                    img.addEventListener('mouseout', function() {
+                        img.style.transform = 'scale(1)';
+                        });
+                </script>
             </div>
         </section>
         <section class="projects-section bg-light" id="projects">
@@ -96,7 +109,7 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Información nutricional</h4>
-                                    <p class="mb-0 text-white-50"> <img src="assets/img/Tabla nutricional.png" alt=""> </p>
+                                    <p class="mb-0 text-white-50"> <img id="tabla" src="assets/img/Tabla nutricional.png" alt=""> </p>
                                 </div>
                             </div>
                         </div>
@@ -159,6 +172,7 @@
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+         
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
