@@ -82,6 +82,10 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faf4e0;
 }
+@font-face{
+  font-family: EmperaRegular;
+  src: url("Empera-Regular.tff")
+}
 
 *,
 *::before,
@@ -93,6 +97,12 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+#tabla{
+  /*Hacer mas para abajo la tabla*/
+  margin-top: 10%;
+  width: 100%;
 }
 
 body {
@@ -110,6 +120,7 @@ body {
 
 #alc{
   background-color: white;
+  font-family: EmperaRegular;
 }
 
 hr {
