@@ -52,3 +52,25 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+            //Para que cuando pase el mouse por arriba haga zoom AL FINAL
+            document.getElementById("zooma").onmouseover = function() {
+                var zoom = document.getElementById("zooma").style.transform = "scale(1.2)";
+                }
+                document.getElementById("zooma").onmouseout = function() {
+                    var zoom = document.getElementById("zooma").style.transform = "scale(1)";
+                    }
+
+            document.getElementById("zoomb").onmouseover = function() {
+                var zoom = document.getElementById("zoomb").style.transform = "scale(1.2)";
+                }
+                document.getElementById("zoomb").onmouseout = function() {
+                    var zoom = document.getElementById("zoomb").style.transform = "scale(1)";
+                    }
+                    
+            document.getElementById("zoomc").onmouseover = function() {
+                var zoom = document.getElementById("zoomc").style.transform = "scale(1.2)";
+                }
+                document.getElementById("zoomc").onmouseout = function() {
+                    var zoom = document.getElementById("zoomc").style.transform = "scale(1)";
+                    }
