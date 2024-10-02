@@ -11299,7 +11299,7 @@ h2 {
 }
 
 
-/* for touch screen devices */
+/* 
 @media (hover: none) { 
   .location-title {
     opacity: 1;
@@ -11307,7 +11307,7 @@ h2 {
   .location-image img {
     filter: blur(2px);
   }
-}
+} */
 
 
 
